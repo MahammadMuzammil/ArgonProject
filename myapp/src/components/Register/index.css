@@ -1,0 +1,48 @@
+.image{
+    position: relative;
+}
+.heading{
+    text-align: center;
+}
+.register-side-img{
+    /* background-image: ; */
+    background-size: contain;
+    height: 650px;
+    width: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 100px;
+    padding-right: 40px;
+    align-items: center;
+    order: 1;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 500px;
+    margin-left: 40px;
+}
+.terms{
+    color: #00BDD6FF;
+    font-family: 'Roboto';
+}
+.terms-conditions{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.user-type{
+    align-self: flex-start;
+    /* border-width: 0px; */
+    height: 30px;
+    width: 90px;
+}
+.user-type-label{
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: red;
+}
